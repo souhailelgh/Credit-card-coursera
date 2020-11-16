@@ -1,5 +1,5 @@
 * Data Description:
-Data Source: https://www.kaggle.com/dalpozz/creditcardfraud/data
+Data Source: \url {https://www.kaggle.com/dalpozz/creditcardfraud/data}
 It is a CSV file, contains 31 features, the last feature is used to classify the transaction whether it is a fraud or not.
 
 Information about data set
@@ -9,8 +9,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 * The models used are : 
 
-                     *Random Forest and SVM for classfication supervisd machine Learning
-                     
+                     *Random Forest and SVM for classfication supervisd machine Learning.
                      * Isolation Forest and Eliptic Envelope for anomaly detection.
 
 
