@@ -8,7 +8,9 @@ It contains only numerical input variables which are the result of a PCA transfo
 ****************************************************************************************************
 
 * The models used are : 
+
                      *Random Forest and SVM for classfication supervisd machine Learning
+                     
                      * Isolation Forest and Eliptic Envelope for anomaly detection.
 
 
