@@ -1,5 +1,6 @@
 * Data Description:
-Data Source: \url {https://www.kaggle.com/dalpozz/creditcardfraud/data}
+Data Source: https://www.kaggle.com/dalpozz/creditcardfraud/data.
+
 It is a CSV file, contains 31 features, the last feature is used to classify the transaction whether it is a fraud or not.
 
 Information about data set
