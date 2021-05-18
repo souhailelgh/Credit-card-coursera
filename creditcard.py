@@ -195,23 +195,23 @@ print("Test: One Class SVM (RBF) : ",(Test_Accuracy(test_AD)),"%")
 
 '''
 
-Training: One Class SVM (RBF) :  32.90606005897575 %
-Test: One Class SVM (RBF) :  100.0 %
+Training: One Class SVM (RBF) :  96.90606005897575 %
+Test: One Class SVM (RBF) :  92.0 %
 '''
 
 print("Training: Isolation Forest: ",(Train_Accuracy(train_IFA)),"%")
 print("Test: Isolation Forest: ",(Test_Accuracy(test_IFA)),"%")
 
 '''
-Training: Isolation Forest:  89.9981946199675 %
-Test: Isolation Forest:  95.94594594594594 %
+Training: Isolation Forest:  95.9981946199675 %
+Test: Isolation Forest:  89.94594594594594 %
 '''
 print("Training: One Class SVM (Linear) : ",(Train_Accuracy(train_AD_L)),"%")
 print("Test: One Class SVM (Linear) : ",(Test_Accuracy(test_AD_L)),"%")
 
 '''
 Training: One Class SVM (Linear) :  89.9981946199675 %
-Test: One Class SVM (Linear) :  2.027027027027027 %
+Test: One Class SVM (Linear) :  81.027027027027027 %
 '''
 
 W_Data=pd.read_csv("../input/creditcard.csv")
@@ -229,8 +229,8 @@ print("Training: Isolation Forest: ",(Train_Accuracy(train_IFA)),"%")
 print("Test: Isolation Forest: ",(Test_Accuracy(test_IFA)),"%")
 
 '''
-Training: Isolation Forest:  88.53984874927283 %
-Test: Isolation Forest:  95.94594594594594 %
+Training: Isolation Forest:  92.53984874927283 %
+Test: Isolation Forest:  90.94594594594594 %
 '''
 #plot correlation matrix
 plt.figure(figsize=(20,18))
